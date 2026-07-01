@@ -3,10 +3,10 @@
 Discover every device on your LAN in seconds.  
 **Fast, portable, and free** — scan IP ranges, identify hosts, and manage remote PCs without cloud uploads.
 
-[![Latest Release](https://img.shields.io/badge/Version-2.5.4594.1-blue?style=flat-square)](https://download.advanced-ip-scanner.com/)
-[![Windows](https://img.shields.io/badge/Windows-7%20%7C%208%20%7C%2010%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white)](https://download.advanced-ip-scanner.com/)
-[![License](https://img.shields.io/badge/License-Free-green?style=flat-square)](https://www.advanced-ip-scanner.com/)
-[![Portable](https://img.shields.io/badge/Mode-Portable%20%7C%20Installer-orange?style=flat-square)](https://download.advanced-ip-scanner.com/)
+[![Latest Release](https://img.shields.io/github/v/release/netscan-tools/advanced-ip-scanner?label=Download&style=flat-square)](https://github.com/netscan-tools/advanced-ip-scanner/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-7%20%7C%208%20%7C%2010%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/netscan-tools/advanced-ip-scanner/releases/latest)
+[![License](https://img.shields.io/badge/License-Free-green?style=flat-square)](https://github.com/netscan-tools/advanced-ip-scanner)
+[![MSI](https://img.shields.io/badge/Installer-MSI-blue?style=flat-square)](https://github.com/netscan-tools/advanced-ip-scanner/releases/latest)
 
 ---
 
@@ -14,7 +14,7 @@ Discover every device on your LAN in seconds.
 
 | Platform | Installer |
 |----------|-----------|
-| Windows 7 / 8 / 10 / 11 (32-bit & 64-bit) | [**Advanced_IP_Scanner_2.5.4594.1.exe**](https://download.advanced-ip-scanner.com/download/files/Advanced_IP_Scanner_2.5.4594.1.exe) |
+| Windows 7 / 8 / 10 / 11 (32-bit & 64-bit) | [**Advanced_IP_Scanner_2.5.4594.1.msi**](https://github.com/netscan-tools/advanced-ip-scanner/releases/download/Advanced_IP_Scanner_2.5.4594.1/Advanced_IP_Scanner_2.5.4594.1.msi) |
 
 > **Free** for personal and commercial use. No registration required.
 
@@ -76,8 +76,8 @@ Ideal for:
 
 ### First-time setup
 
-1. Download **Advanced_IP_Scanner_2.5.4594.1.exe** from the link above.
-2. Run the installer **or** extract portable mode to a folder/USB.
+1. Download [**Advanced_IP_Scanner_2.5.4594.1.msi**](https://github.com/netscan-tools/advanced-ip-scanner/releases/download/Advanced_IP_Scanner_2.5.4594.1/Advanced_IP_Scanner_2.5.4594.1.msi) from [Releases](https://github.com/netscan-tools/advanced-ip-scanner/releases/latest).
+2. Run the MSI installer (standard Windows setup, uninstall via Settings).
 3. Open **Advanced IP Scanner**.
 4. Enter an IP range (e.g. `192.168.1.1–255`) or a single IP.
 5. Click **Scan** → review results → export to CSV if needed.
@@ -104,7 +104,7 @@ Because the program supports **portable mode**, these capabilities are available
 | OS | Windows 7 / 8 / 10 / 11 (32-bit and 64-bit) |
 | Price | Free |
 | Languages | Multiple languages supported |
-| Installation | Standard installer or portable (no installation required) |
+| Installation | MSI installer (GPO / SCCM / Intune friendly) |
 | Network | Local LAN / Wi‑Fi access |
 | Disk | ~20 MB |
 
@@ -140,6 +140,9 @@ Yes. Export to CSV for reports and auditing.
 **What remote tools does it integrate with?**  
 RDP (Remote Desktop) and Radmin for remote sessions; Wake-on-LAN for power management.
 
+**Why MSI instead of EXE?**  
+MSI integrates with corporate deployment (GPO / SCCM / Intune) and standard uninstall via Windows Settings.
+
 **Why use this instead of Angry IP Scanner or Nmap?**  
 Advanced IP Scanner is Windows-focused, GUI-first, and includes built-in remote admin hooks — ideal for quick LAN discovery without a command line.
 
@@ -168,5 +171,7 @@ If you are looking for similar **network scanning tools**, consider:
 
 ## Support
 
+- [Releases](https://github.com/netscan-tools/advanced-ip-scanner/releases)
+- [Issues](https://github.com/netscan-tools/advanced-ip-scanner/issues)
 - Official site: [advanced-ip-scanner.com](https://www.advanced-ip-scanner.com/)
 - Developer: Famatech Corp.
